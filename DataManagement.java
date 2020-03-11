@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -16,7 +17,25 @@ public class DataManagement {
 		BufferedReader buffredReader = new BufferedReader(fileReader);
 		JSONParser jsonParser = new JSONParser();
 		JSONObject jsonObject = (JSONObject)jsonParser.parse(buffredReader);
-		//String listArray = (String)jsonObject.get("RICE");
-		System.out.println(jsonObject);
+		JSONArray rice = (JSONArray)jsonObject.get("RICE");
+		JSONArray pulse = (JSONArray)jsonObject.get("PULSES");
+		JSONArray wheat = (JSONArray)jsonObject.get("WHEATS");
+		for(int itr = 0 ; itr < rice.size() ; itr++)
+		{
+			System.out.println(rice.get(itr)+" ");
+		}
+		System.out.println();
+		for(int itr = 0 ; itr < pulse.size() ; itr++)
+		{
+			System.out.println(pulse.get(itr)+" ");
+		}
+		System.out.println();
+		for(int itr = 0 ; itr < wheat.size() ; itr++)
+		{
+			System.out.println(wheat.get(itr)+" ");
+		}
+		
+		
+	
 	}
 }
