@@ -1,0 +1,43 @@
+{
+	"RICE": [{
+			"id": "01",
+			"name": "basmati rice",
+			"weigth": 100,
+			"price per kg": 100
+		},
+		{
+			"id": "02",
+			"name": "orya sativa",
+			"weigth": 200,
+			"price per kg": 95
+		}
+	],
+
+	"PULSES": [{
+			"id": "01",
+			"name": "pea",
+			"weigth": 50,
+			"price per kg": 100
+		},
+		{
+			"id": "02",
+			"name": "horse gram",
+			"weigth": 150,
+			"price per kg": 80
+		}
+	],
+
+	"WHEATS": [{
+			"id": "01",
+			"name": "Triticum L",
+			"weigth": 95,
+			"price per kg": 30
+		},
+		{
+			"id": "02",
+			"name": "Triticum aestivum L",
+			"weigth": 250,
+			"price per kg": 35
+		}
+	]
+}
