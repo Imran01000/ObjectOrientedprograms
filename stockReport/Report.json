@@ -1,0 +1,43 @@
+{
+	"TCS": [{
+			"id": "01",
+			"name": "Ravi",
+			"no of share": 10,
+			"share price": 2000
+		},
+		{
+			"id": "02",
+			"name": "yogesh",
+			"no of share": 40,
+			"share price": 2000
+		}
+	],
+
+	"GODREJ": [{
+			"id": "01",
+			"name": "Ramesh",
+			"no of share": 22,
+			"share price": 1400
+		},
+		{
+			"id": "02",
+			"name": "Salim",
+			"no of share": 41,
+			"share price": 1400
+		}
+	],
+
+	"BAJAJ": [{
+			"id": "01",
+			"name": "Umar",
+			"no of share":35,
+			"share price": 4000
+		},
+		{
+			"id": "02",
+			"name": "Javed",
+			"no of share": 45,
+			"share price": 4000		
+		}
+	]
+}
